@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.table {
+  border: 4px dashed green;
+  padding: 20px;
+  color: green;
+  border-radius: 8px;
+}
+
+.trello-button {
+  border-color: transparent;
+  background-color: green;
+  border-radius: 8px;
+  color: white;
+}
+
+button.trello-button:hover {
+
+  background-color: white;
+  color: green;
+}
+
+.tableau {
+  width: 12%;
+  position: absolute;  
+  top: 12px;
+  right: 8px;
+}
+
+.container {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 8px;
+  color: black;
+  position: relative;
+}
+
+.trello{
+  width: 12%;
+  position: absolute;
+  top: 12px;
+  right: 8px;  
+}
+
+.list-button {
+  border-color: black;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+button.list-button:hover {
+
+  background-color: white;
+  color: black;
+}
+
+.list {
+  border: 2px solid red;
+  margin: 4px auto;
+  padding: 12px;
+  position: relative;
+}
+
+.liste {
+  width: 4%;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+.todo-button {
+  border-color: red;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 8px;
+}
+
+button.todo-button:hover {
+
+  background-color: white;
+  color: red;
+}
+
+.to-do {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  padding: 16px;
+  width: 90%;
+  position: relative;
+}
+
+.todo {
+  width: 4%;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
